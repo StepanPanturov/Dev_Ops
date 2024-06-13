@@ -9,7 +9,7 @@ def sum(a: int, b: int) -> int:
     """
 
     result = 0
-
+    result = a + b
     return result
 
 
@@ -24,7 +24,7 @@ def sub(a: int, b: int) -> int:
     """
 
     result = 0
-
+    result = a - b
     return result
 
 
@@ -38,5 +38,5 @@ def multi(a: int, b: int) -> int:
     """
 
     result = 0
-
+    result = a * b
     return result
